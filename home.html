@@ -21,7 +21,7 @@
                 <!-- stat -->
                 <div class="stats shadow  mt-5 overflow-hidden">
                     <div class="stat bg-yellow-100">
-                      <div class="stat-value ">9400</div>
+                      <div id="account-balance" class="stat-value ">9400</div>
                       <div class="stat-desc">Available Balance</div>
                     </div>
                   </div>
@@ -42,13 +42,13 @@
                             <label class="label">
                               <span class="label-text">Add Money</span>
                             </label>
-                            <input type="text" placeholder="Your Account" class="input input-bordered" required />
+                            <input id="add-money" type="text" placeholder="Your Amount" class="input input-bordered" required />
                           </div>
                           <div class="form-control">
                             <label class="label">
                               <span class="label-text">Pin</span>
                             </label>
-                            <input type="password" placeholder="Enter your Pin Number" class="input input-bordered" autocomplete="off" required />
+                            <input id="pin-number" type="password" placeholder="Enter your Pin Number" class="input input-bordered" autocomplete="off" required />
                             <label class="label">
                               <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
                             </label>
